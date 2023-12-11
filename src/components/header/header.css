@@ -1,0 +1,51 @@
+.header {
+    color: #000;
+    padding: 40px 0;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu__link {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    color: #000;
+}
+
+.icons__elem {
+    margin-right: 30px;
+}
+
+ul li {
+    transition: 0.5s;
+}
+
+ul:hover li {
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(3px);
+}
+
+ul li:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+

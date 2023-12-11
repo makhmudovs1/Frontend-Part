@@ -1,0 +1,28 @@
+.month {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.month__item {
+    width: 300px;
+}
+
+.month__text {
+    font-size: 26px;
+    line-height: 30.52px;
+    font-weight: 400;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-decoration: none;
+    color: #FFF1F6;
+    background: #333434;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px 0 20px 560px;
+}

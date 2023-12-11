@@ -1,0 +1,41 @@
+.plants {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    margin-bottom: 100px;
+}
+
+.block, .block__item {
+    display: flex;
+    align-items: center;
+}
+
+.block__img img {
+    width: 200px;
+    height: 290px;
+}
+
+.block__item p {
+    font-size: 16px;
+}
+
+.block__span {
+    color: rgb(52, 118, 80);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.care {
+    padding: 50px 240px;
+}
+
+.care > h1 {
+    margin-bottom: 130px;
+}
+
+.block__info {
+    margin-left: 20px;
+    width: 900px;
+}
