@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Frontend-Part/static/css/main.92f5d2b3.css",
+    "main.js": "/Frontend-Part/static/js/main.de8d2eae.js",
+    "static/media/desciption.png": "/Frontend-Part/static/media/desciption.51c4394b2cd7e2adf0a5.png",
+    "static/media/palms.png": "/Frontend-Part/static/media/palms.b8634f936f246ea3440c.png",
+    "static/media/anturium.jpeg": "/Frontend-Part/static/media/anturium.e3b82b7bc3f6a3541a0b.jpeg",
+    "static/media/suculents.png": "/Frontend-Part/static/media/suculents.17de8037bc6112403540.png",
+    "static/media/polly.jpeg": "/Frontend-Part/static/media/polly.992da7eab7dccc83677b.jpeg",
+    "static/media/ficuses.png": "/Frontend-Part/static/media/ficuses.4223f4d4de5467252f5a.png",
+    "static/media/ficuse4.png": "/Frontend-Part/static/media/ficuse4.c4e6523ec3651fdf2509.png",
+    "static/media/ficuse3.png": "/Frontend-Part/static/media/ficuse3.aa428c528b60b583af87.png",
+    "static/media/ficuse1.png": "/Frontend-Part/static/media/ficuse1.9ac6a6068940d17ec3dd.png",
+    "static/media/ficuse2.png": "/Frontend-Part/static/media/ficuse2.bff33a31ce818b55b3d3.png",
+    "static/media/aglaonema.jpeg": "/Frontend-Part/static/media/aglaonema.d64269d51c316012272d.jpeg",
+    "static/media/aloe.jpeg": "/Frontend-Part/static/media/aloe.376dfcd1967744e537df.jpeg",
+    "static/media/alokazia.jpeg": "/Frontend-Part/static/media/alokazia.f284e9f3d707e88ed7ad.jpeg",
+    "static/media/3.svg": "/Frontend-Part/static/media/3.26f17a49c7e75e8ea3be631b88466102.svg",
+    "static/media/2.svg": "/Frontend-Part/static/media/2.32848e4f96924f1bdcd526877613c957.svg",
+    "index.html": "/Frontend-Part/index.html",
+    "static/media/1.svg": "/Frontend-Part/static/media/1.3c447b9118df6202ee2fa3a7542f0184.svg",
+    "main.92f5d2b3.css.map": "/Frontend-Part/static/css/main.92f5d2b3.css.map",
+    "main.de8d2eae.js.map": "/Frontend-Part/static/js/main.de8d2eae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92f5d2b3.css",
+    "static/js/main.de8d2eae.js"
+  ]
+}
