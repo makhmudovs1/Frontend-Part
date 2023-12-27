@@ -1,8 +1,8 @@
 {
-  "name": "Frontend-Part",
+  "name": "my-react-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://makhmudovs1.github.io/Frontend-Part",
+  "homepage": "http://makhmudovs1.github.io/Frontend-Part",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
