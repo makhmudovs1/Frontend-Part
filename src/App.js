@@ -1,5 +1,6 @@
 import React from "react";
 import {
+    BrowserRouter as Router, // Import BrowserRouter with an alias
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
@@ -13,70 +14,80 @@ import Delivery from "./components/ delivery/ delivery";
 import Care from "./components/care/care";
 import Catalog from "./components/catalog/catalog";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element:( <div className="App">
-            <Header/>
-            <Main/>
-            <Description/>
-            <Footer/>
-        </div>),
-    },
-    {
-        path: "/main",
-        element:( <div className="App">
-            <Header/>
-            <Main/>
-            <Description/>
-            <Footer/>
-        </div>),
-    },
-    {
-        path: "/contacts",
-        element: (
-            <>
-                <Header/>
-                <Contacts/>
-                <Footer/>
-            </>
-        ),
-    },
-    {
-        path: "/advices",
-        element: (
-            <>
-                <Header/>
-                <Care/>
-                <Footer/>
-            </>
-        ),
-    },
-    {
-        path: "/catalog",
-        element: (
-            <>
-                <Header/>
-                <Catalog/>
-                <Footer/>
-            </>
-        ),
-    },
-    {
-        path: "/delivery",
-        element: (
-            <>
-                <Header/>
-                <Delivery/>
-                <Footer/>
-            </>
-        ),
-    },
-]);
+// Use BrowserRouter here
+const BrowserRouter = createBrowserRouter({
+    routes: [
+        {
+            path: "/",
+            element: (
+                <div className="App">
+                    <Header />
+                    <Main />
+                    <Description />
+                    <Footer />
+                </div>
+            ),
+        },
+        {
+            path: "/main",
+            element: (
+                <div className="App">
+                    <Header />
+                    <Main />
+                    <Description />
+                    <Footer />
+                </div>
+            ),
+        },
+        {
+            path: "/contacts",
+            element: (
+                <>
+                    <Header />
+                    <Contacts />
+                    <Footer />
+                </>
+            ),
+        },
+        {
+            path: "/advices",
+            element: (
+                <>
+                    <Header />
+                    <Care />
+                    <Footer />
+                </>
+            ),
+        },
+        {
+            path: "/catalog",
+            element: (
+                <>
+                    <Header />
+                    <Catalog />
+                    <Footer />
+                </>
+            ),
+        },
+        {
+            path: "/delivery",
+            element: (
+                <>
+                    <Header />
+                    <Delivery />
+                    <Footer />
+                </>
+            ),
+        },
+    ],
+});
+
 function App() {
-  return (
-    <RouterProvider router={router} />
-  );
+    return (
+        <Router>
+            <RouterProvider router={BrowserRouter} />
+        </Router>
+    );
 }
 
 export default App;
